@@ -1,0 +1,7 @@
+Question 2: 
+Why do you think such tests may be useful wwhen parallelizing your computational code?
+Answer: 
+We can easily check, if the data transfer between the active processing cores functions as
+intended. While the ecexutable serial code is easily checked for logical errors, one coul
+miss a bug in the data transfer. 
+ 

@@ -1,0 +1,10 @@
+Question 3: 
+Comment on the obtained results. 
+Answer: 
+a) The "mach" approach: We can see that this approach quickly increases its accuracy up to
+	10^(-15) during the first four runs, i.e. until k = 4. Then the accuracy no longer increases. 
+b) The "zeta" approach: We can see that this approach is much slower than the "mach" approach.
+	During the first 15 Runs, i.e. until k = 15, we just get an accuracy level of 10^(-4). 
+	
+	
+	TODO

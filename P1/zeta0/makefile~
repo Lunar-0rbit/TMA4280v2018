@@ -1,0 +1,8 @@
+all:	
+	mpicc -std=c99 -D_XOPEN_SOURCE=600 -D__EXTENSIONS__ -c main.c -g -O2
+	mpicc -o exec main.o
+	mpirun -np 8 ./exec 
+test:
+	gcc -o q1_zeta q1_zeta.c -std=c99 -lm
+utest:
+	gcc -o q2_zeta q2_zeta.c -std =c99 -lm
